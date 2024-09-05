@@ -12,13 +12,13 @@ an sqlite database
 # STEP 1: Enter data and execute this section of the code
 
 #   Enter the search term below as a string, i.e. within " "
-searchterm = " "
+searchterm = "copper mineral deposit"
 
 #   Set the maximum number of results to collect (integer, maximum 999)
-limit = 
+limit = 999
 
 #   Enter your figshare API token below (as a string)
-TOKEN = " "
+TOKEN = "8b24ca7cf4c7a85f17080abf401097bcee697e16470fe8841f2d687424225ed4e17a2d44857d5b44ec536f9e5ed6e4ee157318240fa28cfff4b216ca8b54e9d5"
 
 #   Enter the filename for the sqlite database in which to store your metadata. 
 #   If you have not yet created a database, enter a new filename and the 
@@ -26,7 +26,7 @@ TOKEN = " "
 #   To build on the database from Martin et al. (2021) (Download from: )
 #   enter "fsdownloads.sqlite". To use the template file enter "fsdownloads_template.sqlite".
 #   Download SQLite files from: https://doi.org/10.6084/m9.figshare.16870603.v1
-sqlite_filename = " .sqlite"
+sqlite_filename = "copper2.sqlite"
 
 #   Add any terms to be excluded from the search (these will be marked irrelevant and not downloaded)
 #   Enter the terms to be excluded between the ' ' and separate each term by a comma

@@ -16,15 +16,15 @@ downloads files that have not been retrieved to the working folder
 
 #   Specify the path to the folder in which you want to save your downloaded file. Place the folder path
 #   inside the "" after the r, e.g. folder = (r"C:\myfolder\")
-folder = (r" ")
+folder = (r"I:\figshare")
           
 #   Specify the name of the sqlite database you created in the figshare_search
 #   code. Download SQLite files from: https://doi.org/10.6084/m9.figshare.16870603.v1
-sqlite_filename = ".sqlite"
+sqlite_filename = "copper.sqlite"
 
 #   Set the limit of the number of articles you wish to download (integer)
 
-limit = 
+limit = 999
 
 
 #%%
